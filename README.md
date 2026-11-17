@@ -55,7 +55,7 @@ print(e.erfuellt, e.schwelle, e.zustimmung_ba)
 ```
 
 Web-Oberfläche: `pip install gradio` und `python app.py`, oder online im
-[Hugging Face Space](https://huggingface.co/spaces/raphaelsellami/blaue-karte-gehaltsgrenzen).
+[Hugging Face Space](https://huggingface.co/spaces/RaphMael/blaue-karte-gehaltsgrenzen).
 
 ## FAQ
 
