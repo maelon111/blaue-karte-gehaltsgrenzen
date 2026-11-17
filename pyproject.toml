@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blaue-karte-gehaltsgrenzen"
+version = "1.0.0"
+description = "Gehaltsgrenzen Blaue Karte EU 2024-2026 und Fachkräfte ab 45 Jahren: offene Daten und Rechner."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = []
+keywords = ["blaue karte", "eu blue card", "gehaltsgrenze", "fachkräfteeinwanderung", "germany", "salary threshold"]
+
+[project.scripts]
+gehaltsgrenzen = "gehaltsgrenzen.__main__:main"
+
+[project.urls]
+Homepage = "https://github.com/maelon111/blaue-karte-gehaltsgrenzen"
+HireSpeeder = "https://hirespeeder.de"
+
+[tool.setuptools]
+packages = ["gehaltsgrenzen"]
